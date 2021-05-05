@@ -1,3 +1,31 @@
+$primary_color: lightblue;
+$secondar_color: lightgreen;
+$third_color: rgb(49, 49, 133);
+$title: center;
+
 body {
-    background-color: lightblue;
+    width: 1200px;
+    margin: auto;
+    background-color: $primary_color;
+}
+
+h1,
+h2 {
+    text-align: $title;
+    color: $third_color;
+}
+
+p {
+    background-color: $secondar_color;
+    padding: 10px;
+    box-shadow: 0 0 5px 2px grey;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+.btn {
+    text-align: $title;
 }
